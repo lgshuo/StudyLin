@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lscs.lgs.myscrollview.StickyScrollView
+        android:id="@+id/scoll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/top_parent"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorAccent">
+
+                <ImageView
+                    android:id="@+id/bg_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/bg" />
+
+                <FrameLayout
+                    android:id="@+id/bg_fram"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="bottom"
+                    android:background="#33000000">
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="11dp"
+                        android:layout_marginLeft="23dp"
+                        android:src="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="48dp"
+                        android:text="旅行者"
+                        android:textColor="#fff"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginRight="15dp"
+                        android:text="2017-5-8"
+                        android:textColor="#fff"
+                        android:textSize="10dp" />
+                </FrameLayout>
+                <TextView
+                    android:tag="sticky-nonconstant-hastransparancy"
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="30dp"
+                    android:maxLines="1"
+                    android:text="桂林"
+                    android:textColor="#FFF"
+                    android:textSize="20dp" />
+            </FrameLayout>
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </com.lscs.lgs.myscrollview.StickyScrollView>
+
+    <FrameLayout
+        android:id="@+id/fram_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:src="@drawable/ic_img_back" />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:text="桂林"
+            android:textColor="#FFF"
+            android:textSize="16dp" />
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_vertical|right"
+            android:padding="10dp"
+            android:src="@drawable/ic_img_share" />
+    </FrameLayout>
+</RelativeLayout>

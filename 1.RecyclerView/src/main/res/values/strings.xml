@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">StudyLin</string>
+    <string name="base_adapter">
+<!--
+                设计adapter基类:
+                    需求分析:继承RecyclerView.BaseAdapter ,需要继承RecyclerView.ViewHolder的类和adapter绑定的数据类型  :可以用泛型
+                            需要获取的数据,item的布局,数据,其中item可以用抽象方法由子类返回,也可以由构造方法传入
+                            需要实现3个抽象方法,     onCreateViewHolder   onBindViewHolder   getItemCount
+                                其中getItemCount可以直接实现方法
+                                onBindViewHolder 绑定数据必须由子类去绑定
+
+                                实现adapter基类的难点:  1.BaseViewHolder的设计
+                                                                            2.onCreateViewHolder  方法的实现
+
+
+                    简单实现:
+                                public abstract class MyBaseAdapter<T, K extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<K> {
+
+                                        private List<T> mDatas;
+                                        private  int mLayoutId;
+
+                                        public MyBaseAdapter(@LayoutRes int layoutId, List<T> data){
+                                            this.mDatas = data;
+                                            this.mLayoutId = layoutId;
+                                        }
+
+                                        @NonNull
+                                        @Override
+                                        public K onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                                            this.mContext = parent.getContext();
+                                            return null;
+                                        }
+
+                                        @Override
+                                        public void onBindViewHolder(@NonNull K holder, int position) {
+                                            concert(holder, mDatas.get(position), position);
+                                        }
+
+                                        protected abstract void concert(K holder, T t, int position);
+
+                                        @Override
+                                        public int getItemCount() {
+                                            if (mDatas != null) {
+                                                return mDatas.size();
+                                            }
+                                            return 0;
+                                        }
+                                }
+
+
+-->
+
+    </string>
+
+</resources>

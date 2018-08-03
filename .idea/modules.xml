@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.RecyclerView/1.RecyclerView.iml" filepath="$PROJECT_DIR$/1.RecyclerView/1.RecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyLin.iml" filepath="$PROJECT_DIR$/StudyLin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotationLib/annotationLib.iml" filepath="$PROJECT_DIR$/annotationLib/annotationLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basemodule/basemodule.iml" filepath="$PROJECT_DIR$/basemodule/basemodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myscrollview/myscrollview.iml" filepath="$PROJECT_DIR$/myscrollview/myscrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myutils/myutils.iml" filepath="$PROJECT_DIR$/myutils/myutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note/note.iml" filepath="$PROJECT_DIR$/note/note.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notelib/notelib.iml" filepath="$PROJECT_DIR$/notelib/notelib.iml" />
+    </modules>
+  </component>
+</project>
