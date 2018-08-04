@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/myscrollview/myscrollview.iml" filepath="$PROJECT_DIR$/myscrollview/myscrollview.iml" />
       <module fileurl="file://$PROJECT_DIR$/myutils/myutils.iml" filepath="$PROJECT_DIR$/myutils/myutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/note/note.iml" filepath="$PROJECT_DIR$/note/note.iml" />
-      <module fileurl="file://$PROJECT_DIR$/notelib/notelib.iml" filepath="$PROJECT_DIR$/notelib/notelib.iml" />
     </modules>
   </component>
 </project>

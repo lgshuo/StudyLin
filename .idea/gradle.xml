@@ -15,7 +15,6 @@
             <option value="$PROJECT_DIR$/myscrollview" />
             <option value="$PROJECT_DIR$/myutils" />
             <option value="$PROJECT_DIR$/note" />
-            <option value="$PROJECT_DIR$/notelib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

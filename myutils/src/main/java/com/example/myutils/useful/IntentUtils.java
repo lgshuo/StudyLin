@@ -1,4 +1,4 @@
-package com.example.notelib;
+package com.example.myutils.useful;
 
 import android.app.Activity;
 import android.content.Context;
