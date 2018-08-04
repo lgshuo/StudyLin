@@ -1,4 +1,4 @@
-package com.lscs.lgs.studylin.base;
+package com.lscs.lgs.basemodule.adapter;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;

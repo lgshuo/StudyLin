@@ -1,8 +1,8 @@
 package com.lscs.lgs.studylin.activity;
 
+import com.lscs.lgs.basemodule.adapter.BaseQuickAdapter;
+import com.lscs.lgs.basemodule.adapter.BaseViewHolder;
 import com.lscs.lgs.studylin.R;
-import com.lscs.lgs.studylin.base.BaseQuickAdapter;
-import com.lscs.lgs.studylin.base.BaseViewHolder;
 
 import java.util.List;
 

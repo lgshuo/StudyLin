@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.lscs.lgs.studylin.base;
+package com.lscs.lgs.basemodule.adapter;
 
 import android.os.Build;
 import android.support.annotation.ColorInt;
