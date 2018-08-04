@@ -17,7 +17,7 @@ public class CircleAnimActivity extends BaseActivity {
                 CircularAnim.fullActivity(CircleAnimActivity.this,controllView).colorOrImageRes(R.color.colorAccent).go(new CircularAnim.OnAnimationEndListener() {
                     @Override
                     public void onAnimationEnd() {
-                        startActivity(new Intent(CircleAnimActivity.this,MainActivity.class));
+                        startActivity(new Intent(CircleAnimActivity.this,EmptyActivity.class));
                     }
                 });
             }

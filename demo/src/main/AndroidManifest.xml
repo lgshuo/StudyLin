@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CircleAnimActivity" />
+        <activity android:name=".EmptyActivity" />
     </application>
 
 </manifest>
