@@ -27,6 +27,7 @@
             }
 
 动画: CircleAnim 水波纹扩散动画
+
  CircleAnim.fullActivity(content,view).colorOrImageRes(R.color.colorAccent).go(new CircleAnim.OnAnimationEndListener() {
                     @Override
                     public void onAnimationEnd() {
