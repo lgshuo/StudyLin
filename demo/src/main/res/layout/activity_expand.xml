@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="demo.lgshuo.com.demo.MainActivity">
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#f00" />
+
+        <!--
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+        -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0f0">
+
+            <TextView
+                android:text="expandView"
+                android:padding="20dp"
+                android:textColor="#fff"
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+        </FrameLayout>
+        <!--
+                </android.support.v4.widget.NestedScrollView>
+        -->
+
+        <TextView
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:text="controllView"
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#00f" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

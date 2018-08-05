@@ -26,11 +26,16 @@
                 executePendingTransactions();
             }
 
-动画: CircleAnim 水波纹扩散动画
+动画: CircleAnimUtil 水波纹扩散动画
 
- CircleAnim.fullActivity(content,view).colorOrImageRes(R.color.colorAccent).go(new CircleAnim.OnAnimationEndListener() {
+                CircleAnim.fullActivity(content,view).colorOrImageRes(R.color.colorAccent).go(new CircleAnim.OnAnimationEndListener() {
                     @Override
                     public void onAnimationEnd() {
                       ...
                     }
                 });
+                
+动画:ExpandAnimUtil 
+
+                 ExpandAnimUtil.newInstance(mHideView, mControllView, animHeight,1000);
+        

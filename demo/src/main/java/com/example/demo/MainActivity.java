@@ -19,6 +19,7 @@ public class MainActivity extends BaseActivity {
 
     private void initList() {
         mList.add(new ListDataBean("circleAnimStart",CircleAnimActivity.class));
+        mList.add(new ListDataBean("expandAnim",ExpandAnimActivity.class));
     }
 
     @Override
