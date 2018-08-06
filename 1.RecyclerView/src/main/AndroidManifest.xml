@@ -25,6 +25,7 @@
         <activity android:name=".activity.GridDecorationActivity" />
         <activity android:name=".activity.BaseAdapterActivity" />
         <activity android:name=".activity.HeaderAndFooterActivity" />
+        <activity android:name=".activity.SlideActivity" />
     </application>
 
 </manifest>

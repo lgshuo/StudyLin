@@ -53,12 +53,12 @@ public class HeaderAndFooterActivity extends BaseActivity {
         headerAndFooterAdapter.setOnloadMoreListener(new WapHeaderAndFooterAdapter.OnLoadMoreListener() {
             @Override
             public void onLoadMore() {
-                Toast.makeText(HeaderAndFooterActivity.this, "加载更多", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(HeaderAndFooterActivity.this, "加载更多", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onClickLoadMore() {
-                Toast.makeText(getApplicationContext(), "我:加载更多被点击了", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "我:加载更多被点击了", Toast.LENGTH_SHORT).show();
             }
 
             @Override
