@@ -42,7 +42,7 @@ public class ItemTouchHelperCallback<T> extends ItemTouchHelper.Callback {
         int slideFlags = 0;
         RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
         if (layoutManager instanceof SlideLayoutManager) {
-            slideFlags = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+            slideFlags = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;          //只监听左划和右划
         }
         return makeMovementFlags(dragFlags, slideFlags);
     }
@@ -52,6 +52,9 @@ public class ItemTouchHelperCallback<T> extends ItemTouchHelper.Callback {
         return false;
     }
 
+    /**
+     * 拖拽完以后的处理
+     */
     @Override
     public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
         viewHolder.itemView.setOnTouchListener(null);
@@ -74,6 +77,9 @@ public class ItemTouchHelperCallback<T> extends ItemTouchHelper.Callback {
         return false;
     }
 
+    /**
+     * 拖拽的时候对子view的绘制
+     */
     @Override
     public void onChildDraw(Canvas c, RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder,
                             float dX, float dY, int actionState, boolean isCurrentlyActive) {

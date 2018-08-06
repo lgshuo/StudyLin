@@ -42,5 +42,8 @@ public class SlideActivity extends BaseActivity {
         mList.add(new SlideBean("别再玩手机了,对手机不好。", R.mipmap.pic2));
         mList.add(new SlideBean("闯红灯?成功了,快几十秒;不成功,快一辈子。", R.mipmap.pic3));
         mList.add(new SlideBean("没有善后的能力,就别有善变的脾气。", R.mipmap.pic4));
+        mList.add(new SlideBean("没有善后的能力,就别有善变的脾气。", R.mipmap.pic4));
+        mList.add(new SlideBean("没有善后的能力,就别有善变的脾气。", R.mipmap.pic4));
+        mList.add(new SlideBean("没有善后的能力,就别有善变的脾气。", R.mipmap.pic4));
     }
 }
