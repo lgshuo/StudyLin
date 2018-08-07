@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lscs.lgs.studylin">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,6 +28,9 @@
         <activity android:name=".activity.BaseAdapterActivity" />
         <activity android:name=".activity.HeaderAndFooterActivity" />
         <activity android:name=".activity.SlideActivity" />
+        <activity android:name=".activity.ViewPagerActivity" />
+        <activity android:name=".activity.DouyinViewPagerActivity" />
+        <activity android:name=".activity.WebActivity" />
     </application>
 
 </manifest>

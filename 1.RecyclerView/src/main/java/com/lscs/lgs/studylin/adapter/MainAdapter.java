@@ -3,12 +3,14 @@ package com.lscs.lgs.studylin.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.lscs.lgs.studylin.R;
+import com.lscs.lgs.studylin.activity.WebActivity;
 import com.lscs.lgs.studylin.bean.MainListBean;
 
 import java.util.List;
@@ -38,7 +40,11 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mContext.startActivity(new Intent(mContext,mList.get(position).getActivity()));
+                if (TextUtils.isEmpty(mList.get(position).getLink())) {
+                    mContext.startActivity(new Intent(mContext, mList.get(position).getActivity()));
+                } else {
+                    WebActivity.actionStart(mContext,mList.get(position).getLink());
+                }
             }
         });
     }

@@ -12,6 +12,22 @@ public class MainListBean {
     private String buttonName;
     private Class<? extends Activity> mActivity;
 
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    private String link;
+
+    public MainListBean(String buttonName, Class<? extends Activity> mActivity, String link) {
+        this.buttonName = buttonName;
+        this.mActivity = mActivity;
+        this.link = link;
+    }
+
     public MainListBean(String buttonName, Class activity) {
         this.buttonName = buttonName;
         mActivity = activity;
