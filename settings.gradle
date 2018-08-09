@@ -1,1 +1,1 @@
-include ':1.RecyclerView', ':myscrollview', ':basemodule', ':annotationLib', ':note', ':myutils', ':demo'
+include ':1.RecyclerView', ':myscrollview', ':basemodule', ':annotationLib', ':myutils', ':demo', ':2.notification'
