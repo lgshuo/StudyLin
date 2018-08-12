@@ -1,1 +1,1 @@
-include ':1.RecyclerView', ':myscrollview', ':basemodule', ':annotationLib', ':myutils', ':demo', ':2.view2', ':3.h5withandroid'
+include ':1.RecyclerView', ':myscrollview', ':basemodule', ':annotationLib', ':myutils', ':demo',  ':3.h5withandroid', ':2.view'

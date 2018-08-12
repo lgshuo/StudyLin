@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.a2view"
+        applicationId "com.example.view"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.RecyclerView/1.RecyclerView.iml" filepath="$PROJECT_DIR$/1.RecyclerView/1.RecyclerView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2.view/2.view2.iml" filepath="$PROJECT_DIR$/2.view/2.view2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.view/2.view.iml" filepath="$PROJECT_DIR$/2.view/2.view.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.h5withandroid/3.h5withandroid.iml" filepath="$PROJECT_DIR$/3.h5withandroid/3.h5withandroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyLin.iml" filepath="$PROJECT_DIR$/StudyLin.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotationLib/annotationLib.iml" filepath="$PROJECT_DIR$/annotationLib/annotationLib.iml" />

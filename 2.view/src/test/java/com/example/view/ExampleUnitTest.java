@@ -1,4 +1,4 @@
-package com.example.a2view;
+package com.example.view;
 
 import org.junit.Test;
 
