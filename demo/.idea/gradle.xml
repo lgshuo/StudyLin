@@ -7,15 +7,13 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../1.RecyclerView" />
+            <option value="$PROJECT_DIR$/../annotationLib" />
+            <option value="$PROJECT_DIR$/../basemodule" />
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/1.RecyclerView" />
-            <option value="$PROJECT_DIR$/2.view2" />
-            <option value="$PROJECT_DIR$/3.h5withandroid" />
-            <option value="$PROJECT_DIR$/annotationLib" />
-            <option value="$PROJECT_DIR$/basemodule" />
-            <option value="$PROJECT_DIR$/demo" />
-            <option value="$PROJECT_DIR$/myscrollview" />
-            <option value="$PROJECT_DIR$/myutils" />
+            <option value="$PROJECT_DIR$/../myscrollview" />
+            <option value="$PROJECT_DIR$/../myutils" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
